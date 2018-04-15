@@ -1,0 +1,58 @@
+/* pages/adjustRate/adjustRate.wxss */
+
+.adjuset-rate{
+    width: 700rpx;
+    margin: 0 auto;
+}
+
+.adjuset-rate .tit{
+    margin: 50rpx auto;
+    font-size:16px;
+     display: block;
+}
+.adjuset-rate  .tit-des{
+  margin: 200rpx auto;
+  text-align: center;
+  display: block;
+}
+.adjuset-rate .sel-list{
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  font-size: 14px;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding:4rpx 10rpx;
+  width: 500rpx;
+  margin: 0 auto;
+  position: relative;
+}
+.adjuset-rate .sel-list .arrow{
+   width:0;
+   height:0;
+   border-left:16rpx solid transparent ;
+   border-right:16rpx solid  transparent;
+   border-top:30rpx solid #ccc;
+   position: absolute;
+   display: block;
+   right: 20rpx;
+   top:50%;
+   z-index: -1;
+   margin-top: -15rpx;
+}
+.adjuset-rate .sel-btn{
+  width: 500rpx;
+  margin: 100rpx auto;
+}
+
+.adjuset-rate .sel-btn button{
+   width: 40%;
+}
+
+.adjuset-rate .sel-btn .determine{
+ float: left;
+ background: #5fc4f3;
+ color: #fff;
+}
+.adjuset-rate .sel-btn .resert{
+ float: right;
+}

@@ -1,0 +1,22 @@
+<!--pages/financialObjective/financialObjective.wxml-->
+<view class='fin-boj'>
+      <text class="tit">您的财务目标</text>
+      <view class='finance'>
+        <text>财务保障</text>
+        <text>xxx万元</text>
+      </view>
+       <view class='finance'>
+        <text>财务安全</text>
+        <text>xxx万元</text>
+      </view>
+       <view class='finance'>
+        <text>财务自由</text>
+        <text>xxx万元</text>
+      </view>
+       <view class='sel-btn'>
+          <button class="again" bindtap='goHome'>再来一次</button>
+          <button class="share" open-type="share">分享</button>
+      </view>
+      <view class="test" bindtap="goYearCal">测测我多少年能到财务自由 </view>
+     
+</view>

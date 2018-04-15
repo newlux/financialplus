@@ -1,0 +1,17 @@
+<!--pages/adjustRate/adjustRate.wxml-->
+<view class="adjuset-rate">
+    <text class="tit">每个人根据风险承受能力的偏好，可以自行配置资产达到理想的投资回报。</text>
+    <text class="tit-des">我预期的年化投资回报率为</text>
+    <view class='sel-list'>
+      <picker bindchange="bindPickerChange" value="{{areaIndex}}" range="{{area}}">  
+        <view class="picker">  
+          {{area[areaIndex]}}  
+        </view>  
+      </picker>
+      <view class='arrow'></view>  
+    </view>
+    <view class='sel-btn'>
+     <button class="determine">确定</button>
+     <button class="resert">取消</button>
+    </view>
+</view>

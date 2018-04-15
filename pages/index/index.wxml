@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="index-cont">
+    <view  class="section">   
+        <text class="tit">当前月收入:</text>
+        <input placeholder="单行输入" auto-focus/>
+        <text class="des">万元/月</text>
+    </view> 
+     <view  class="section">   
+        <text class="tit">当前月收入:</text>
+        <input placeholder="单行输入"/>
+        <text class="des">万元/月</text>
+    </view> 
+     <view  class="section">   
+        <text class="tit">预期的投资年化收益率:</text>
+        <input placeholder="8% (默认)"/>
+        <text class="des">我的收益率更高</text>
+    </view> 
+     <view  class="section">   
+        <text class="tit">其他开销:</text>
+        <input placeholder="单行收入" />
+        <text class="des">万元</text>
+    </view> 
+    <view class="bonanza" bindtap="goFinObj">财源滚滚 </view>
+</view>

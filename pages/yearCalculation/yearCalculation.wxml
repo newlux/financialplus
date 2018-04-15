@@ -1,0 +1,31 @@
+<!--pages/yearCalculation/yearCalculation.wxml-->
+<view class="year-calculation">
+  <view  class="section">   
+        <text class="tit">我当前的存款是:</text>
+        <input placeholder="单行输入" auto-focus/>
+        <text class="des">万元</text>
+    </view> 
+     <view  class="section">   
+        <text class="tit">我的收入涨幅是:</text>
+        <input placeholder="单行输入"/>
+        <text class="des">%</text>
+    </view> 
+     <view  class="section">   
+        <text class="tit">我的支出涨幅是:</text>
+        <input placeholder="单行输入"/>
+        <text class="des">%</text>
+    </view> 
+     <view  class="section">   
+        <text class="tit">我的出生年份:</text>
+        <picker bindchange="bindPickerChange" value="{{areaIndex}}" range="{{area}}" class="pic-wrap"> 
+        <view class="picker">  
+           <text>{{area[areaIndex]}}  </text> 
+           <view class='arrow'></view>  
+        </view>  
+      </picker>
+      
+
+        <text class="des">年</text>
+    </view> 
+    <view class="bonanza" bindtap="goFree">恭喜发财</view>
+</view>

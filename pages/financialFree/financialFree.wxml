@@ -1,0 +1,20 @@
+<!--pages/financialFree/financialFree.wxml-->
+<view class='fin-free'>
+      <text class="tit">您的财务状况超过 【X%的人】</text>
+      <view class='finance'>
+        <text>xxx</text>
+        <text>岁, 财务保障, 你不用担心流落街头万元</text>
+      </view>
+       <view class='finance'>
+        <text>xxx</text>
+        <text>岁, 财务安全, 你可以放心地裸辞</text>
+      </view>
+       <view class='finance'>
+        <text>xxx</text>
+        <text>岁，财务自由， 你拥抱诗和远方</text>
+      </view>
+       <view class='sel-btn'>
+          <button class="free">我要提前自由</button>
+          <button class="">我的财务进步追踪</button>
+      </view>
+</view>
